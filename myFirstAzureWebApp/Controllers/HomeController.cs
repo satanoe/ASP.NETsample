@@ -11,6 +11,7 @@ namespace myFirstAzureWebApp.Controllers
     {
         public ActionResult Index()
         {
+            
             Trace.TraceInformation("Index() called.");
             return View();
         }
